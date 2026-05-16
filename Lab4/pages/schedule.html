@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Верстка таблиць</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 40%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+      <table>
+        <caption>
+          Розклад занять на І семестр
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Час</th>
+            <th scope="col">Понеділок</th>
+            <th scope="col">Вівторок</th>
+            <th scope="col">Середа</th>
+          </tr>
+        </thead>
+        <tbody> 
+          <tr> 
+            <th scope="row">08:30 - 10:05</th> 
+            <td>Вища математика</td> 
+            <td>Фізика</td> 
+            <td>Програмування</td> 
+          </tr>
+          <tr> 
+            <th scope="row">10:25 - 12:00</th> 
+            <td colspan="2">Спільна лекція потоку</td> 
+            <td>Англійська мова</td> 
+          </tr>
+          <tr> 
+            <th scope="row">12:20 - 13:55</th> 
+            <td>Філософія</td> 
+            <td rowspan="2">Лабораторна з фізики</td> 
+            <td>Бази даних</td> 
+          </tr> 
+          <tr> 
+            <th scope="row">14:15 - 15:50</th> 
+            <td>Вікно</td> 
+            <!-- Комірка для вівторка пропущена через rowspan --> 
+            <td>Фізичне виховання</td> 
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <br>
+    <a href="../index.html">На головну</a>
+    
+    <footer>
+        <p>&copy; 2026 НТУ «ХПІ», Володимир Бай</p>
+    </footer>
+
+  </body>
+</html>
