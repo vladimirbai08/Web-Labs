@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вхід у систему</title>
+</head>
+  <body>
+    <main>
+        <h2>Авторизація</h2>
+        <form action="/login" method="POST">
+            <div>
+                <label for="userlogin">Логін або Email:</label>
+                <input type="text" id="userlogin" name="login" required>
+            </div>
+
+            <div>
+                <label for="userpassword">Пароль:</label>
+                <input type="password" id="userpassword" name="password" required>
+            </div>
+
+            <div>
+                <input type="checkbox" id="rememberme" name="remember">
+                <label for="rememberme">Запам'ятати мене</label>
+            </div>
+
+            <div>
+                <button type="submit">Увійти</button>
+            </div>
+        </form>
+    </main>
+    <br>
+    <a href="../index.html">На головну</a>
+    <footer>
+    <p>&copy; 2026 НТУ «ХПІ», Володимир Бай</p>
+    </footer>
+  </body>
+</html>
