@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редагування профілю</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../style.css">
+</head>
+  <body>
+    <main>
+    <div class="form-container">
+        <h2>Редагування профілю</h2>
+        <form action="/profile" method="POST">
+            <div class="form-group">
+                <label for="firstname">Ім'я</label>
+                <input type="text" id="firstname" name="firstname" value="Тарас" required>
+            </div>
+            <div class="form-group">
+                <label for="lastname">Прізвище</label>
+                <input type="text" id="lastname" name="lastname" value="Шевченко" required>
+            </div>
+            <div class="form-group">
+                <label for="login">Логін</label>
+                <input type="text" id="login" name="login" value="taras_shevchenko" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Електронна пошта</label>
+                <input type="email" id="email" name="email" value="shevchenko@example.com" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" value="12345678" required>
+            </div>
+            <div class="form-group">
+                <label for="faculty">Факультет</label>
+                <input type="text" id="faculty" name="faculty" value="Комп'ютерних наук">
+            </div>
+            <div class="form-group">
+                <label for="group">Група</label>
+                <input type="text" id="group" name="group" value="ІКМ-224а">
+            </div>
+            <div class="form-group">
+                <label for="city">Місто</label>
+                <input type="text" id="city" name="city" value="Харків">
+            </div>
+            <div class="form-group">
+                <label for="bio">Про себе</label>
+                <textarea id="bio" name="bio" rows="3">Студент НТУ "ХПІ"</textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+                Зберегти зміни
+            </button>
+        </form>
+    </div>
+    <a href="../index.html" class="back-link">На головну</a>
+    </main>
+    <footer>
+    <p>&copy; 2026 НТУ «ХПІ», Володимир Бай</p>
+    </footer>
+  </body>
+</html>
