@@ -28,17 +28,15 @@ img {
 
 .moods {
     display: flex;
-    gap: 8px;           /* Зменшуємо проміжок, щоб звільнити місце для самих фото */
-    flex-wrap: nowrap;   /* Забороняємо перенос сторінки */
+    gap: 8px;
+    flex-wrap: nowrap;
     width: 100%;         
 }
 
 .moods img {
-    /* Розрахунок: кожна картинка займає 33.3% ширини мінус проміжки */
-    width: calc(33.333% - 6px); 
-    
-    aspect-ratio: 3 / 4; /* Однаковий вертикальний формат для всіх */
-    object-fit: cover;   /* Рятує від деформації обличчя через різні розміри файлів */
+    width: calc(33% - 6px); 
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
     border-radius: 6px;
 }
 
