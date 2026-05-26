@@ -1,24 +1,24 @@
 body {
-    margin: 20px;
-    font-family: Arial, sans-serif;
-    transition: 0.4s;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  transition: 0.4s;
 }
 
 header {
-    text-align: left;
+  text-align: left;
 }
 
 img {
-    width: 15%;
-    border-radius: 10px;
+  width: 15%;
+  border-radius: 10px;
 }
 
 .map-container {
   width: 100%;
   max-width: 400px;
-  aspect-ratio: 1 / 1;     
+  aspect-ratio: 1 / 1;
   margin-left: 0;
-  margin-right: auto;  
+  margin-right: auto;
 }
 
 .map-container iframe {
@@ -27,67 +27,67 @@ img {
 }
 
 .moods {
-    display: flex;
-    gap: 8px;
-    flex-wrap: nowrap;
-    width: 100%;         
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
 .moods img {
-    width: calc(33% - 6px); 
-    aspect-ratio: 3 / 4;
-    object-fit: cover;
-    border-radius: 6px;
+  width: calc(33% - 6px);
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 6px;
 }
 
 table {
-    width: 40%;
-    border-collapse: collapse;
+  width: 40%;
+  border-collapse: collapse;
 }
 
 th,
 td {
-    border: 1px solid black;
-    font-size: 14px;
-    padding: 6px 8px;
+  border: 1px solid black;
+  font-size: 14px;
+  padding: 6px 8px;
 }
 
 .slide {
-    width: 100%;
-    max-width: 400px;
-    display: none;
+  width: 100%;
+  max-width: 400px;
+  display: none;
 }
 
 .light-theme {
-    background: #DEF;
-    color: black;
+  background: #def;
+  color: black;
 }
 
 .light-theme table {
-    background: white;
+  background: white;
 }
 
 .dark-theme {
-    background: #124;
-    color: white;
+  background: #124;
+  color: white;
 }
 
 .dark-theme a {
-    color: #6CF;
+  color: #6cf;
 }
 
 .dark-theme table {
-    background: black;
+  background: black;
 }
 
 .dark-theme th,
 .dark-theme td {
-    border-color: white;
+  border-color: white;
 }
 
 .theme-btn {
   margin-top: 24px;
-  background-color: #39F;
+  background-color: #39f;
   color: white;
   border: none;
   border-radius: 6px;
@@ -96,9 +96,6 @@ td {
   font-weight: 700;
   letter-spacing: 0.5px;
   padding: 12px 24px;
-  
-  /*cursor: pointer;
-  transition: background-color 0.2s ease;*/
 }
 
 .theme-btn:hover {
